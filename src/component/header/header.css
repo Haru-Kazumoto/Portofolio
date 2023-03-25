@@ -1,0 +1,29 @@
+.container-header{
+    background-color: black;
+    height: 70px;
+}
+
+.gif-header {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 11px;
+}
+
+.gif-header img{
+    width: 80px;
+}
+
+.router-header a{
+    margin: 25px;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: orange;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+.router-header a:hover {
+  border-bottom: 2px solid orange;
+}
