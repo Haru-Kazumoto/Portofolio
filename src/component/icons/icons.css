@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html ,body {
+    display: grid;
+}
+
+:root{
+    --color-1: #d7e1ec;
+    --color-2: #4869b1;
+    --color-3: #46C1F6;
+    --color-4: #e1306c;
+    --color-5: #333;
+    --color-6: #DE463B;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .icon{
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.68, -0.55. 0.265,1.55);
+}
+
+.wrapper .icon span{
+    position: relative;
+    z-index: 2;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.wrapper .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .icon:hover span {
+    color: #fff;
+}
+
+.wrapper .icon .tooltip{
+    top: 0px;
+    background: #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55. 0.265,1.55);
+}
+
+.wrapper .icon:hover .tooltip{
+    top: -70%;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55. 0.265,1.55);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+
+.wrapper .icon-instagram:hover span,
+.wrapper .icon-instagram:hover .tooltip,
+.wrapper .icon-instagram:hover .tooltip:before{
+    background: var(--color-4);
+}
+
+.wrapper .icon-tiktok:hover span,
+.wrapper .icon-tiktok:hover .tooltip,
+.wrapper .icon-tiktok:hover .tooltip:before{
+    background: black;
+}
+
+.wrapper .icon-github:hover span,
+.wrapper .icon-github:hover .tooltip,
+.wrapper .icon-github:hover .tooltip:before{
+    background: var(--color-5);
+}
+
+.wrapper .icon-linkedin:hover span,
+.wrapper .icon-linkedin:hover .tooltip,
+.wrapper .icon-linkedin:hover .tooltip:before{
+    background: var(--color-3);
+}
