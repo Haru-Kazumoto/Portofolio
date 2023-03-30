@@ -1,0 +1,63 @@
+<p>Hi! I am Ziaurrahman Athaya, I am 17 years old in className 12 majoring in Vocational High School
+            Computer and Network Engineering (TKJ). At first I was involved in the world
+            programming when I was in grade 1 junior high school where I was still learning basic HTML,
+            then I switched to the Python programming language which is still only CLI and moved to the Framework
+            Python is Django. After getting to know the Django Framework well, I moved again to the Java programming language
+            day by day I study Java and learn its Framework which is Spring boot which is Spring boot
+            My favorite framework so far, and now when I made this portfolio I was confronted by it
+            Field Work Practices (PKL) which are required to learn Javascript and its Framework, namely ReactJs, NestJs, and NodeJs.
+          </p>
+
+
+          :root{
+    --bg-color: #1f242d;
+    --sec-bg-color: #323946;
+    --main-color: #F98D2B;
+    --text-color: #fff;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    background-color: var(--sec-bg-color);
+    height: 100vh;
+}
+
+.about img {
+    position: relative;
+    border-radius: 8px;
+    top: 190px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    z-index: 2; /* atur z-index gambar lebih tinggi dari card */
+}
+
+.typography{
+    margin: 100px;
+}
+
+.typography p{
+    color: white;
+    z-index: 2;
+}
+
+.typography h1{
+    font-size: 60px;
+}
+//card
+.card {
+  position: relative; /* ubah posisi card menjadi relatif */
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background-color: var(--bg-color);
+  top: 150px;
+  left: 120px;
+  width: 400px;
+  height: 400px;
+  background-position: -50px -50px;
+  background-size: cover;
+  z-index: 1; /* atur z-index card lebih rendah dari gambar */
+}

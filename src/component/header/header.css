@@ -1,21 +1,22 @@
 .container-header{
-    background-color: #333;
-    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.2s ease-in-out;
 }
 
-.gif-header {
+.text-header {
     position: absolute;
-    font-size: 35px;
+    left: 50px;
+    font-size: 15px;
     font-weight: bold;
     margin: 11px;
-}
-
-.gif-header img{
-    width: 80px;
+    color: white;
 }
 
 .router-header a{
-    margin: 25px;
+    margin: 20px;
     float: right;
     font-size: 20px;
     text-decoration: none;

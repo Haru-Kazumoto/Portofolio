@@ -5,24 +5,20 @@ import './icons.css';
 
 const Icons = () => {
   return (
-    <div className="wrapper">
-        <div className="icon-instagram">
-            <div className="tooltip">Instagram</div>
-            <span><i><BsIcons.BsInstagram style={{width: '10px'}}/></i></span>
-        </div>
-        <div className="icon-tiktok">
-            <div className="tooltip">Tiktok</div>
-            <span><i><SiIcons.SiTiktok /></i></span>
-        </div>
-        <div className="icon-linkedin">
-            <div className="tooltip">Linkedin</div>
-            <span><i><BsIcons.BsLinkedin /></i></span>
-        </div>
-        <div className="icon-github">
-            <div className="tooltip">Github</div>
-            <span><i><BsIcons.BsGithub /></i></span>
-        </div>
-    </div>
+    <ul className="wrapper">
+        <li className="icon instagram">
+          <span className="tooltip">@kiruukaa</span>
+          <span><i className="fab fa-instagram"></i></span>
+        </li>
+        <li className="icon github">
+          <span className="tooltip">Github</span>
+          <span><i className="fab fa-github"></i></span>
+        </li>
+        <li className="icon linkedin">
+          <span className="tooltip">Linkedin</span>
+          <span><i className="fa-brands fa-linkedin"></i></span>
+        </li>
+      </ul>
   )
 }
 

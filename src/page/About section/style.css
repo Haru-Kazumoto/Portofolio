@@ -1,0 +1,53 @@
+:root{
+    --bg-color: #1f242d;
+    --sec-bg-color: #323946;
+    --main-color: #F98D2B;
+    --text-color: #fff;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    background-color: var(--sec-bg-color);
+    background-image: url('../src/assets/dot_img.svg');
+    height: 100vh;
+}
+
+.about img {
+  position: absolute; /* ubah posisi gambar menjadi absolut */
+  border-radius: 8px;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+  z-index: 2; /* atur z-index gambar lebih tinggi dari card */
+}
+
+.card {
+    position: relative; /* ubah posisi card menjadi relatif */
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    background-color: var(--bg-color);
+    top: 150px;
+    left: 120px;
+    width: 400px;
+    height: 400px;
+    background-position: -50px -50px;
+    background-size: cover;
+    z-index: 1; /* atur z-index card lebih rendah dari gambar */
+  }
+
+.typography p{
+    position: relative;
+    width: 600px;
+    color: white;
+    top: 200px;
+    left: 250px;
+    z-index: 3;
+}
+
+.typography h1{
+    font-size: 60px;
+}

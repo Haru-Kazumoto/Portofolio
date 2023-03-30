@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   -webkit-user-drag: none;
@@ -6,129 +6,14 @@
 }
 
 .container-content{
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-}
-
-.greetings{
-  display: flex;
-  flex-direction: row;
-}
-
-.blob {
   position: relative;
-  transform: rotate(-7deg);
-  flex: 1;
+  z-index: 0;
 }
-
-.blob img{
-  margin-top: -50px;
-  margin-left: 100px;
-  width: 90%;
-}
-.blob p {
-  position: absolute;
-  top: 45%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: black;
-  font-size: 70px;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  line-height: 1.2em;
-}
-
-.blob .hello {
-  font-family: 'Caveat';
-  color: black;
-}
-  
-.blob .name {
-  font-family: 'Caveat';
-  color: black;
-  text-decoration: underline;
-  text-decoration-thickness: 0.3rem;
-}
-.blob .developer{
-    font-family: 'Caveat';
-    color: black;
-    font-size: 50px;
-}
-
-.image-developer {
-    flex: 1;
-    max-width: 50%;
-    background-image: url('../src/assets/blob.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 50px center;
-    margin-bottom: 150px;
-}
-  
-.image-developer img {
-    margin-left: 250px;
-    border-radius: 20px;
-    width: 40%;
-    height: auto;
-    box-shadow: 16px 17px 33px -11px rgba(41, 41, 41, 0.75);
-    -webkit-box-shadow: 16px 17px 33px -11px rrgba(41, 41, 41, 0.75);
-    -moz-box-shadow: 16px 17px 33px -11px rgba(41, 41, 41, 0.75);
-}
-
 /*  */
-.about{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 70px;
-}
-
-.about-card-background {
-  background-color: #F98D2B;
-  padding: 20px;
-  border-radius: 20px;
-  width: 300px;
-}
-
-.about-card-background img {
-  z-index: 5;
-  height: auto;
-  border-radius: 20px;
-  object-fit: cover;
-  object-position: center left;
-  position: relative;
-  min-width: 35rem;
-  max-width: 50rem;
-  width: 40;
-  height: 40rem;
-}
-
-.about-card-content {
-  margin-left: 17rem;
-  margin-right: 10rem;
-  margin-top: 100px;
-  padding: 20px;
-}
-
-.about-card-content h2 {
-  font-family: 'Caveat';
-  font-size: 100px;
-}
-
-.divide{
-  margin-bottom: 20px;
-}
-
-.about-card-content p {
-  font-size: 20px;
-}
 
 /* Skills */
 
 .text-skills{
-  font-family: 'Caveat';
   display: flex;
   text-align: center;
   justify-content: center;
@@ -139,11 +24,20 @@
 
 /* Project Page */
 .text-project{
-  font-family: 'Caveat';
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-size: 100px;
   margin-bottom: 30px;
+}
+
+.project-page{
+  position: relative;
+  display: flex;
+}
+
+.stack {
+  position: absolute;
+  bottom: 0;
 }
