@@ -30,6 +30,7 @@
 .greetings img{
     position: absolute;
     left: 30px;
+    top: -30px;
     width: 35rem;
 }
   
@@ -68,8 +69,13 @@
 
 .image-developer img {
     position: absolute;
-    top: 130px;
+    top: 90px;
     left: 100px;
     width: 30%;
     height: auto;
+}
+
+.footer-section img{
+    left: 950px;
+    height: 300px;
 }

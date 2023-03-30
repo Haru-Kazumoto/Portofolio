@@ -1,0 +1,86 @@
+:root{
+    --bg-color: #1f242d;
+    --sec-bg-color: #323946;
+    --thrd-bg-color: #323946d9;
+    --main-color: #F98D2B;
+    --text-color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.title-service {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+/* Garis bawah dari title */
+.divide{
+    border: 3px solid rgb(241, 74, 74);
+    width: 120px;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+
+
+.card-container {
+    position: relative; /* ubah posisi card menjadi relatif */
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-service{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border-radius: 7px;
+    margin-top: 70px;
+    border: 2px solid rgb(241, 74, 74); /* Properti border */
+    background-color: transparent; /* Mengatur latar belakang kartu menjadi transparan */
+    padding: 1rem;
+    color: rgb(241, 74, 74);
+    transition: 0.2s ease-in-out;
+}
+
+.card-service:hover{
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 22px 0px rgba(201,201,201,1);
+}
+
+.card-service i{
+    position: relative;
+    left: 15px;
+    font-size: 60px;
+}
+
+.card-service h2{
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.content-card{
+    position: relative;
+    top: -20px;
+    color: var(--text-color);
+    padding: 20px;
+}

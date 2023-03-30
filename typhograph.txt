@@ -61,3 +61,8 @@
   background-size: cover;
   z-index: 1; /* atur z-index card lebih rendah dari gambar */
 }
+
+fast learner TfiStatsUp
+debugging AiOutlineBug
+communication AiOutlineComment
+OOP knowledge FaLaptopCode

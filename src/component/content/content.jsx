@@ -1,9 +1,10 @@
 import React from 'react';
 import './content.css';
-import LanguageCards from '../language-cards/LanguageCard';
 import { Image } from 'antd';
 import Hero from '../../page/Hero section/hero';
 import About from '../../page/About section/About';
+import Service from '../../page/Service section/Service';
+import Skills from '../../page/Skills section/Skills';
 
 const Content = () => {
   return (
@@ -11,13 +12,9 @@ const Content = () => {
       <section>
         <Hero />
         <About /> 
+        <Service />
+        <Skills />
       </section>
-      <p>
-        <span className="text-skills" id='skills-page'>My Skills</span>
-      </p>
-      <div>
-        <LanguageCards />
-      </div>
       
       <p>
         <span className="text-project">Project that I have worked</span>

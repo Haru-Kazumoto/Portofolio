@@ -5,10 +5,12 @@ import Content from './component/content/content'
 function App() {
   return (
     <>
-      <Header />
-      <div>
+      <header>
+        <Header />
+      </header>
+      <section>
         <Content />
-      </div>
+      </section>
     </>
   )
 }
