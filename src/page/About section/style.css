@@ -50,3 +50,9 @@
 .typography h1{
     font-size: 60px;
 }
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}

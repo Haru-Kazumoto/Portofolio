@@ -11,11 +11,11 @@ const Icons = () => {
           <span><i className="fab fa-instagram"></i></span>
         </li>
         <li className="icon github">
-          <span className="tooltip">Github</span>
+          <span className="tooltip">Haru-Kazumoto</span>
           <span><i className="fab fa-github"></i></span>
         </li>
         <li className="icon linkedin">
-          <span className="tooltip">Linkedin</span>
+          <span className="tooltip">Ziaurrahman Athaya</span>
           <span><i className="fa-brands fa-linkedin"></i></span>
         </li>
       </ul>

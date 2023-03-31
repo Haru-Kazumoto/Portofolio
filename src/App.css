@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Lato', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 ::-webkit-scrollbar {
